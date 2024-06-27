@@ -12,5 +12,5 @@ This project is a farm website built using React.js and Django. Its primary goal
 - **Backend**: Django
 
 ## Note:
-This project is in the early stages. Preliminary design of pages made with [Figma](https://www.figma.com/). Clicl [here]() to see the starting design concepts.
+This project is in the early stages. Preliminary design of pages made with [Figma](https://www.figma.com/). Click [here](https://www.figma.com/proto/RulxurBs7wd9FHsOA3FuP3/FarmWebsite?node-id=0-1&t=YeHtWOtVma65aEGg-1) to see the starting design concepts.
 
