@@ -1,0 +1,76 @@
+.botnav {
+    height: 15rem;
+    outline: 1px solid green;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botnavleft {
+    height: 15rem;
+    padding: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.botnavleft h3 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.botnavleft > div > p {
+    font-size: 0.7rem;
+    color: grey;
+}
+
+.logoContainer {
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 1.5rem;
+    height: 1.5rem;
+
+    background-color: grey;
+    border-radius: 0.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.logo p {
+    color: white;
+    font-weight: 500;
+}
+
+.botnavright {
+    height: 15rem;
+    padding: 3rem;
+}
+
+.linkGrid {
+    width: 30rem;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 1rem;
+    grid-auto-flow: column;
+}
+
+.gridItem strong {
+    font-weight: 500;
+}
+
+.gridItem {
+    cursor: pointer;
+}
