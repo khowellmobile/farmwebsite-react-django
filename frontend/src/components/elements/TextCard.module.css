@@ -1,0 +1,10 @@
+.textCard {
+    padding: 1rem;
+    box-shadow: -4px 4px 10px 1px rgb(212, 212, 212);
+    border-radius: 1rem;
+}
+
+.small {
+    width: 25rem;
+    height: 13rem;
+}

@@ -1,6 +1,6 @@
-import TopNav from "../components/naviagtion/TopNav";
-import CenterContent from "../components/naviagtion/CenterContent";
-import BotNav from "../components/naviagtion/BotNav";
+import TopNav from "../components/sections/TopNav";
+import CenterContent from "../components/sections/CenterContent";
+import BotNav from "../components/sections/BotNav";
 
 function HomePage() {
     return (
