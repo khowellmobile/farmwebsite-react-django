@@ -2,12 +2,6 @@
     --sub-title-color: rgb(73, 73, 73);
 }
 
-.centercontent {
-    height: 150vh;
-
-    outline: 1px solid blue;
-}
-
 .titleDiv {
     height: 45rem;
 
@@ -15,8 +9,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
-    outline: 1px solid orange;
 }
 
 .titleDiv > h1 {
@@ -62,4 +54,8 @@
 
     display: flex;
     justify-content: space-between;
+}
+
+.carousel {
+    margin-bottom: 2rem;
 }

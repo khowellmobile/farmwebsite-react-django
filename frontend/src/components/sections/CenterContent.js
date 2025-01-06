@@ -2,6 +2,7 @@ import classes from "./CenterContent.module.css";
 import textCardClasses from "../elements/TextCard.module.css";
 import TextCard from "../elements/TextCard";
 import img0 from "../../images/Tractor.jpg";
+import CardCarousel from "../elements/CardCarousel";
 
 function CenterContent() {
     return (
@@ -35,7 +36,9 @@ function CenterContent() {
                     </TextCard>
                 </div>
             </div>
-            <div className={classes.carousel}></div>
+            <div className={classes.carousel}>
+                <CardCarousel />
+            </div>
         </div>
     );
 }
