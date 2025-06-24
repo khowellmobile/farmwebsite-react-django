@@ -1,18 +1,23 @@
-import classes from "./TopNav.module.css"
+import classes from "./TopNav.module.css";
 
-function TopNav() {
+const TopNav = () => {
     return (
-        <div className={classes.topnav}>
-            <div className={classes.title}>
-                <h2>Bigtime Products</h2>
+        <div className={classes.mainContainer}>
+            <div className={classes.navBar}>
+                <div className={classes.logo}></div>
+                <div className={classes.links}>
+                    <p>Home</p>
+                    <p>Store</p>
+                    <p>Events</p>
+                    <p>Hours</p>
+                    <p>Contact Us</p>
+                </div>
             </div>
-            <div className={classes.links}>
-                <p>Home</p>
-                <p>About</p>
-                <p>Products</p>
+            <div className={classes.centerText}>
+                <h1>WELCOME TO <br/>MOONSHADOW CATTLE FARMS</h1>
             </div>
         </div>
     );
-}
+};
 
 export default TopNav;
