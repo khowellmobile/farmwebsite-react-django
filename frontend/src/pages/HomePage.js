@@ -55,7 +55,36 @@ function HomePage() {
                     for your table.
                 </p>
             </div>
-            <div className={classes.pictureLinks}></div>
+            <div className={classes.pictureLinks}>
+                <div className={classes.pictureLink}>
+                    <div className={classes.caption}>
+                        <h2>Shop Cattle</h2>
+                        <p>Checkout our top tier free range cattle.</p>
+                        <a>Learn More ⟶</a>
+                    </div>
+                </div>
+                <div className={classes.pictureLink}>
+                    <div className={classes.caption}>
+                        <h2>Meet the Family</h2>
+                        <p>Read the stories of all our furry friends!</p>
+                        <a>Learn More ⟶</a>
+                    </div>
+                </div>
+                <div className={classes.pictureLink}>
+                    <div className={classes.caption}>
+                        <h2>Come Visit</h2>
+                        <p>Contact and Shipping Information</p>
+                        <a>Learn More ⟶</a>
+                    </div>
+                </div>
+                <div className={classes.pictureLink}>
+                    <div className={classes.caption}>
+                        <h2>Events</h2>
+                        <p>Find out what shows we are winning this year!</p>
+                        <a>Learn More ⟶</a>
+                    </div>
+                </div>
+            </div>
             <BotNav />
         </div>
     );

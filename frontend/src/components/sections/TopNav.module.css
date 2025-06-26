@@ -33,17 +33,31 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    position: relative;
+    bottom: 2rem;
 }
 
 .links > p {
     color: rgb(231, 231, 231);
     font-size: 1.1rem;
-    font-weight: 300;
+    font-weight: 400;
     cursor: pointer;
 }
 
 .links > p:hover {
     color: white;
+}
+
+.links > p:last-child {
+    padding: 0.5rem;
+    border: 3px solid rgb(231, 231, 231);
+    border-radius: 2rem;
+    font-weight: 400;
+}
+
+.links > p:last-child:hover {
+    border: 3px solid white;
 }
 
 .centerText {
@@ -64,4 +78,3 @@
     position: relative;
     bottom: 5rem;
 }
-
