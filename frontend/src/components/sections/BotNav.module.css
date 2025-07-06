@@ -1,5 +1,8 @@
 .botnav {
     height: 15rem;
+    margin-top: 2rem;
+
+    background-color: rgb(61, 61, 61);
 
     display: flex;
     justify-content: space-between;
@@ -16,6 +19,7 @@
 }
 
 .botnavleft h3 {
+    color: rgb(219, 219, 219);
     font-size: 2rem;
     font-weight: 400;
 }
@@ -72,4 +76,8 @@
 
 .gridItem {
     cursor: pointer;
+}
+
+.gridItem > p {
+    color: rgb(219, 219, 219);
 }

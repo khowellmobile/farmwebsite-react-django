@@ -26,7 +26,7 @@ function BotNav() {
             </div>
             <div className={classes.botnavright}>
                 <div className={classes.linkGrid}>
-                    <div className={classes.gridItem}><strong>Related Sites</strong></div>
+                    <div className={classes.gridItem}><p><strong>Related Sites</strong></p></div>
                     <div className={classes.gridItem}><p>Example Link</p></div>
                     <div className={classes.gridItem}><p>Example Link</p></div>
                     <div className={classes.gridItem}><p>Example Link</p></div>
