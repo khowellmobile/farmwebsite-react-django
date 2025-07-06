@@ -4,11 +4,12 @@ import BotNav from "../components/sections/BotNav";
 import TopNav from "../components/sections/TopNav";
 
 import farmers from "../assets/images/farmers.png";
+import navImg from "../assets/images/scenicImage1.jpg"
 
 function HomePage() {
     return (
         <div>
-            <TopNav />
+            <TopNav backgroundImg={navImg}/>
             <div className={classes.story}>
                 <h2>
                     Moonshadow Cattle is a traditional family farm, committed to
@@ -52,7 +53,8 @@ function HomePage() {
                     where tradition meets the gentle grace of the night.More
                     than just a business, our farm is a legacy, a connection to
                     the land, and a promise of wholesome, naturally raised beef
-                    for your table.
+                    for your table. The name "Moonshadow" isn't just poetic; it
+                    reflects the rhythm of our farm.
                 </p>
             </div>
             <div className={classes.pictureLinks}>

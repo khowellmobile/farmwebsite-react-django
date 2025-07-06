@@ -2,7 +2,6 @@
     width: 100%;
     height: 100vh;
 
-    background-image: url("../../assets/images/scenicImage1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -38,25 +37,26 @@
     bottom: 2rem;
 }
 
-.links > p {
+.links > a {
     color: rgb(231, 231, 231);
-    font-size: 1.1rem;
-    font-weight: 400;
+    font-size: 0.9rem;
+    font-weight: 500;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.links > p:hover {
+.links > a:hover {
     color: white;
 }
 
-.links > p:last-child {
+.links > a:last-child {
     padding: 0.5rem;
     border: 3px solid rgb(231, 231, 231);
     border-radius: 2rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
-.links > p:last-child:hover {
+.links > a:last-child:hover {
     border: 3px solid white;
 }
 

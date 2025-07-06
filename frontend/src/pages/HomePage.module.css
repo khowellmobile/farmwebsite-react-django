@@ -7,12 +7,18 @@
 .story > h2 {
     padding: 0 10rem;
 
+    color: rgb(48, 48, 48);
+    font-family: var(--secondary-font);
+    font-size: 2rem;
     font-weight: 400;
+
     text-align: center;
 }
 
 .story > p {
-    font-size: 1.1rem;
+    color: rgb(48, 48, 48);
+    font-family: var(--secondary-font);
+    font-size: 1.3rem;
 }
 
 .pictureLinks {
