@@ -3,7 +3,7 @@ import classes from "./HomePage.module.css";
 import BotNav from "../components/sections/BotNav";
 import TopNav from "../components/sections/TopNav";
 
-import farmers from "../images/farmers.png";
+import farmers from "../assets/images/farmers.png";
 
 function HomePage() {
     return (
