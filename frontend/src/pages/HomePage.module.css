@@ -9,8 +9,6 @@
 .story {
     width: 100%;
     padding: 5rem var(--page-padding);
-
-    outline: 1px solid red;
 }
 
 .story > h2 {
