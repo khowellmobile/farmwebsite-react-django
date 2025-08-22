@@ -1,11 +1,10 @@
 import classes from "./TopNav.module.css";
 
-const TopNav = ({backgroundImg, isHalfHeight}) => {
-
+const TopNav = ({ backgroundImg, isHalfHeight }) => {
     const backgroundStyle = {
         backgroundImage: `url(${backgroundImg})`,
-        height: isHalfHeight ? '50vh' : '100vh',
-    }
+        height: isHalfHeight ? "50vh" : "100vh",
+    };
 
     return (
         <div className={classes.mainContainer} style={backgroundStyle}>
@@ -14,7 +13,7 @@ const TopNav = ({backgroundImg, isHalfHeight}) => {
                 <div className={classes.links}>
                     <a href="/">HOME</a>
                     <a href="/store">STORE</a>
-                    <a>EVENTS</a>
+                    <a href="/events">EVENTS</a>
                     <a>HOURS</a>
                     <a>CONTACT US</a>
                 </div>

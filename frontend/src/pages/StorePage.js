@@ -1,8 +1,10 @@
-import TopNav from "../components/sections/TopNav";
+import { useState } from "react";
+
 import classes from "./StorePage.module.css";
 
 import navImg from "../assets/images/scenicImage0.jpg";
-import { useState } from "react";
+import BotNav from "../components/sections/BotNav";
+import TopNav from "../components/sections/TopNav";
 import CattleCard from "../components/elements/CattleCard";
 
 import img0 from "../assets/images/Bambi.jpg";
@@ -41,30 +43,35 @@ const StorePage = () => {
     ];
 
     return (
-        <div className={classes.mainContainer}>
+        <>
             <TopNav backgroundImg={navImg} isHalfHeight={true} />
-            <div className={classes.header}>
-                <h2>Check out those Mooooos</h2>
+            <div className={classes.mainContainer}>
+                <div className={classes.header}>
+                    <h2>Check out those Mooooos</h2>
+                </div>
+                <div className={classes.productListing}>
+                    {cattleList && cattleList.length > 0 ? (
+                        cattleList.map((cattle, index) => {
+                            const title =
+                                cattleTitles[index % cattleTitles.length];
+                            const desc =
+                                cattleDescs[index % cattleDescs.length];
+                            return (
+                                <CattleCard
+                                    key={index}
+                                    img={img0}
+                                    title={title}
+                                    desc={desc}
+                                />
+                            );
+                        })
+                    ) : (
+                        <p>No Cattle</p>
+                    )}
+                </div>
             </div>
-            <div className={classes.productListing}>
-                {cattleList && cattleList.length > 0 ? (
-                    cattleList.map((cattle, index) => {
-                        const title = cattleTitles[index % cattleTitles.length];
-                        const desc = cattleDescs[index % cattleDescs.length];
-                        return (
-                            <CattleCard
-                                key={index}
-                                img={img0}
-                                title={title}
-                                desc={desc}
-                            />
-                        );
-                    })
-                ) : (
-                    <p>No Cattle</p>
-                )}
-            </div>
-        </div>
+            <BotNav />
+        </>
     );
 };
 

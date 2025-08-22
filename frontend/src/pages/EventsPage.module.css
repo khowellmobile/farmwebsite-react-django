@@ -1,0 +1,26 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header > h2 {
+    padding: 3rem 10rem;
+
+    color: rgb(48, 48, 48);
+    font-family: var(--secondary-font);
+    font-size: 2rem;
+    font-weight: 400;
+
+    text-align: center;
+}
+
+.eventListing {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
