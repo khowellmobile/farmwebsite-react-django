@@ -1,11 +1,19 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    outline: 3px solid blue;
+}
+
 .story {
     width: 100%;
-    height: 60rem;
-    padding: 5rem 30rem;
+    padding: 5rem var(--page-padding);
+
+    outline: 1px solid red;
 }
 
 .story > h2 {
-    padding: 0 10rem;
 
     color: rgb(48, 48, 48);
     font-family: var(--secondary-font);
@@ -23,7 +31,7 @@
 
 .pictureLinks {
     width: 100%;
-    padding: 0 30rem;
+    padding: 0 var(--page-padding);
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);

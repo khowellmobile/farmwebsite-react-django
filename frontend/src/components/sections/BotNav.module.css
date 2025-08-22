@@ -1,5 +1,6 @@
 .botnav {
     height: 15rem;
+    width: 100%;
     margin-top: 2rem;
 
     background-color: rgb(61, 61, 61);
@@ -56,12 +57,16 @@
 }
 
 .botnavright {
+    width: 30vw;
     height: 15rem;
-    padding: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .linkGrid {
-    width: 30rem;
+    width: 100%;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);

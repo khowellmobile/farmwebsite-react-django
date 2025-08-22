@@ -8,7 +8,7 @@ import navImg from "../assets/images/scenicImage1.jpg"
 
 function HomePage() {
     return (
-        <div>
+        <div className={classes.mainContainer}>
             <TopNav backgroundImg={navImg}/>
             <div className={classes.story}>
                 <h2>
